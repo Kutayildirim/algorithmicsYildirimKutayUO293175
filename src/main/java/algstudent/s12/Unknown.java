@@ -1,4 +1,4 @@
-package algstudents12;
+package algstudent.s12;
 
 public class Unknown {
 

@@ -1,16 +1,17 @@
-package algstudents12;
+package algstudent.s12;
 
 import java.util.Random;
 
-public class Loop4 {
+public class Loop5 {
 
-	public static long loop4(int n) {
+	public static long loop5(int n) {
 		Random rn = new Random();
 		int cont = 0;
 		for (int i = 1; i <= n; i++)
 			for (int j = 1; j <= n; j++)
 				for (int k = 1; k <= n; k++)
-					cont += rn.nextInt();
+					for (int l = 1; l <= n; l++)
+						cont += rn.nextInt();
 		return cont;
 	}
 
@@ -23,7 +24,7 @@ public class Loop4 {
 			t1 = System.currentTimeMillis();
 
 			for (int repetition = 1; repetition <= repetitions; repetition++) {
-				cont = loop4(n);
+				cont = loop5(n);
 			}
 
 			t2 = System.currentTimeMillis();
