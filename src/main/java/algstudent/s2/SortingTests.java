@@ -5,7 +5,7 @@ public class SortingTests {
 	/** This program is used to check that sorting algorithms are working
 	 * */
 	public static void main(String arg []) {
-		int n = Integer.parseInt(arg[1]);  //problem size
+		int n = Integer.parseInt(arg[0]);  //problem size
 		
 		testSortingAlgorithm(new Insertion(n));
 		

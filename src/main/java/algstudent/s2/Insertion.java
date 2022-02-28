@@ -10,7 +10,7 @@ public class Insertion extends Vector {
 
 	@Override
 	public void sort() {
-		int pivot;
+		/*int pivot;
 		int j;
 		for (int i; i < elements.length; i++) {
 			pivot = elements[i];
@@ -20,7 +20,7 @@ public class Insertion extends Vector {
 				j--;
 			}
 			elements[j + 1] = pivot;
-		}
+		}*/
 	}
 
 	@Override
